@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load the dataset for Random Forrest and Naive Bayes
-loaded_model_nb = pickle.load(open('C:/Users/User/Desktop/Mayk/trained_model_nb.sav', 'rb'))
-loaded_model_rf = pickle.load(open('C:/Users/User/Desktop/Mayk/trained_model_rf.sav', 'rb'))
+loaded_model_nb = pickle.load(open('trained_model_nb.sav', 'rb'))
+loaded_model_rf = pickle.load(open('trained_model_rf.sav', 'rb'))
 
 # Creating a function for prediction
 
